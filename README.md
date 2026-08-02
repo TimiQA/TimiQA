@@ -12,7 +12,7 @@ QA Automation Engineer with 5+ years in commercial testing (API, UI, integration
 ## 📁 Key Projects
 
 ### 🔹 [ipgis-qa-automation](https://github.com/TimiQA/ipgis-qa-automation)
-Hybrid UI + API test framework for [IPGIS](https://ipgis.cc) — a live IP intelligence & geolocation service I built and maintain myself.
+Hybrid UI + API test framework for [IPGIS.cc](https://ipgis.cc) — a live IP intelligence & geolocation service I built and maintain myself.
 - Stabilized UI tests against async React rendering using Playwright's smart-wait assertions instead of hardcoded sleeps
 - Found and documented a backend validation bug (silent fallback instead of `400` on invalid input) — see `BUG_REPORT.md`
 - Automated via GitHub Actions with Allure/JUnit reporting
