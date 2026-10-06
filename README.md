@@ -17,6 +17,17 @@ Hybrid UI + API test framework for [IPGIS.cc](https://ipgis.cc) — a live IP in
 - Found and documented a backend validation bug (silent fallback instead of `400` on invalid input) — see `BUG_REPORT.md`
 - Automated via GitHub Actions with Allure/JUnit reporting
 
+### 🔹 Enterprise UI Test Infrastructure & Autonomous AI Diagnostics
+
+A showcase of architecture patterns for stabilizing large-scale GUI automation in headless containerized environments, enhanced with LLM-assisted triage via Model Context Protocol (MCP).
+
+* **Headless Display Orchestration:** Configured isolated Linux Docker runners using virtual framebuffers (Xvfb) and lightweight window managers, resolving modal window blocking and focus locks during unattended test runs.
+* **Live Session Telemetry:** Integrated on-demand Web-VNC inspection proxies into CI pipelines, allowing engineers to visually monitor headless container execution during failure events.
+* **AI Tooling & MCP Integration:** Designed agentic workflows connecting local LLMs with test execution environments via JSON-RPC protocols to automate failure analysis and configuration adjustments.
+* **Robust Pipeline Triage:** Built custom Python triage utilities to parse multi-suite JUnit reports and process execution logs, preventing silent failure propagation in complex enterprise CI workflows.
+
+*Note: Proprietary enterprise binaries and commercial ERP metadata have been abstracted into vendor-agnostic architecture patterns in this showcase.*
+
 ### 🔹 [nodus](https://github.com/TimiQA/nodus) ⭐ 18
 Self-hosted deployment of a Matrix-based messenger — Docker, Nginx, TLS, TURN/NAT traversal for WebRTC, one-command provisioning on a bare Debian VPS.
 
